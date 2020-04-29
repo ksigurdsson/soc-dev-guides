@@ -1,2 +1,4 @@
-# soc-dev-guides
-System on Chip Development Guides
+SoC Development Guides
+======================
+
+A set of guides for System-On-Chip development.
