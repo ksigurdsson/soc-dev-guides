@@ -16,6 +16,14 @@ Welcome to the SoC Development Guides!
 
    directory-structure
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Miscellaneous
+   :name: misc
+   :hidden:
+
+   ToDo
+
 ##################
 Indices and tables
 ##################
