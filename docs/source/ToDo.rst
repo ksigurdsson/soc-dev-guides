@@ -20,14 +20,14 @@ This is a simple list of items to document as I think of them
 * RTL
 
   * Build Targets (ASIC/FPGA/GENERIC - which is the default/else case?)
-  * Use `ifdef SIMULATE for simulation specifics
-  * Use `ifdef UPF SVA etc.
+  * Use ```ifdef SIMULATE`` for simulation specifics
+  * Use ```ifdef UPF SVA`` etc.
 * CDC
 * RDC
 * X-Prop
 * Linting
 
-  * HAL doesn't trace through cells with `celldefine
+  * HAL doesn't trace through cells with ```celldefine``
   * Must therefore HAL lint both GENERIC and ASIC RTL views
   * Verilator can (probably) only LEC the GENERIC view
     

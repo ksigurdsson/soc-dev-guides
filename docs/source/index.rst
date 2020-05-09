@@ -10,8 +10,14 @@ Welcome to the SoC Development Guides!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Data Organisation
-   :name: organisation
+   :caption: Process
+   :name: process
+   :hidden:
+      
+.. toctree::
+   :maxdepth: 1
+   :caption: Methodology
+   :name: methodology
    :hidden:
 
    directory-structure
