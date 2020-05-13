@@ -1,5 +1,6 @@
+************
 Introduction
-============
+************
 
 The System-On-Chip (SoC) Development Guides are a set of general best practices
 recommended when developing SoCs, be that FPGAs or ASICs.

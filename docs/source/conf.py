@@ -31,6 +31,7 @@ release = 'r0p1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    #'sphinx_navtree'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -43,6 +44,16 @@ exclude_patterns = []
 
 # The master toctree document.
 master_doc = 'index'
+
+
+# -- sphinx_navtree configuration --------------------------------------------
+
+navtree_shift = True
+
+navtree_root_links = False
+
+#navtree_maxdepth
+
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -71,3 +82,43 @@ except ImportError:
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+# -- Options for LaTeX output --------------------------------------------------
+
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+#'papersize': 'letterpaper',
+
+# The font size ('10pt', '11pt' or '12pt').
+#'pointsize': '10pt',
+
+# Additional stuff for the LaTeX preamble.
+#'preamble': '',
+}
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title, author, documentclass [howto/manual], toctree_only).
+latex_documents = [
+  (master_doc, 'socdevelopmentguides.tex', project, author, 'manual', False),
+]
+
+# The name of an image file (relative to this directory) to place at the top of
+# the title page.
+#latex_logo = None
+
+# For "manual" documents, if this is true, then toplevel headings are parts,
+# not chapters.
+latex_use_parts = False
+
+# If true, show page references after internal links.
+#latex_show_pagerefs = False
+
+# If true, show URL addresses after external links.
+#latex_show_urls = False
+
+# Documents to append as an appendix to all manuals.
+#latex_appendices = []
+
+# If false, no module index is generated.
+#latex_domain_indices = True
