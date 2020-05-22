@@ -23,6 +23,8 @@ This is a simple list of items to document as I think of them
   * Use ```ifdef SIMULATE`` for simulation specifics
   * Use ```ifdef UPF SVA`` etc.
   * Coding style based upon: https://github.com/lowRISC/style-guides/blob/master/VerilogCodingStyle.md
+  * Use logic for 4-state variables (or bit for 2-state variables) to represent all single drive signals. 
+    Any signal with more or the potential for more than one driver should be declared as a wire. e.g. inout/tri-states
 * CDC
 * RDC
 * X-Prop
