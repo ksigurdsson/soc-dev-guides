@@ -46,15 +46,6 @@ exclude_patterns = []
 master_doc = 'index'
 
 
-# -- sphinx_navtree configuration --------------------------------------------
-
-navtree_shift = True
-
-navtree_root_links = False
-
-#navtree_maxdepth
-
-
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
