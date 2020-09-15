@@ -40,5 +40,4 @@ distclean:
 # http://stackoverflow.com/questions/26875072/dependencies-for-special-make-target-default-not-firing
 # We hack around that by calling the target explicitly.
 	make .venv
-
 	source .venv/bin/activate; $(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
