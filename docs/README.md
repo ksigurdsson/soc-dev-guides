@@ -17,7 +17,7 @@ Replace the commands for your distribution as necessary.
 
 ```sh
 # install build dependencies
-apt-get install texlive
+apt-get install texlive latexmk texlive-latex-extra
 
 # build the PDF documentation
 make latexpdf
