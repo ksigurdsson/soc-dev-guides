@@ -8,15 +8,7 @@ recommended when developing SoCs, be that FPGAs or ASICs.
 The Seven Phases of SoC Development
 ===================================
 
-The seven phases of SoC development are:
-
-#. Discovery
-#. Concept
-#. Planning
-#. Design
-#. Build
-#. Produce
-#. End of Life
+.. figure:: /diagrams/svg/SoC-Development-Phases.svg
 
 About the Author
 ================
